@@ -1,4 +1,4 @@
-﻿#include <iostream>
+﻿#include "Tic_tac_toe.h"
 using namespace std;
 
 char board[3][3] = { {'1','2','3'}, {'4','5','6'}, {'7','8','9'} };
@@ -150,7 +150,7 @@ void game()
 	cout << endl;
 }
 
-int main()
+int Tic_tac_toe()
 {
 	setlocale(LC_ALL, "Russian");
 
